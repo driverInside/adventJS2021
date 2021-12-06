@@ -1,0 +1,34 @@
+{
+  "name": "adventJS2021",
+  "version": "1.0.0",
+  "description": "My AdventJS 2021 solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driverInside/adventJS2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/driverInside/adventJS2021/issues"
+  },
+  "homepage": "https://github.com/driverInside/adventJS2021#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "jest": "^27.4.3",
+    "standard": "^16.0.4"
+  },
+  "standard": {
+    "env": ["jest"]
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["dist"]
+  }
+}
